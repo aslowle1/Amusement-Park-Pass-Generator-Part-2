@@ -30,11 +30,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BL-Ds-y80">
                                                 <rect key="frame" x="0.0" y="0.0" width="341.5" height="90"/>
-                                                <color key="backgroundColor" red="0.050980392156862744" green="0.13725490196078433" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.46274509803921571" green="0.33725490196078434" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="2NJ-h5-IDZ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                                 <state key="normal" title="Guest">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -44,22 +44,28 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCQ-VP-wjK">
                                                 <rect key="frame" x="341.5" y="0.0" width="341" height="90"/>
-                                                <color key="backgroundColor" red="0.050980392156862744" green="0.13725490196078433" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.46274509803921571" green="0.33725490196078434" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="yW0-rG-pKc"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                                 <state key="normal" title="Employee">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="mainEmployeeButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="tjH-bA-SBK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RW-Nk-D1v">
                                                 <rect key="frame" x="682.5" y="0.0" width="341.5" height="90"/>
-                                                <color key="backgroundColor" red="0.050980392156862744" green="0.13725490196078433" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                                <color key="backgroundColor" red="0.46274509803921571" green="0.33725490196078434" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                                 <state key="normal" title="OutSource">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="outSourceButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wia-Zp-Ycm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -67,64 +73,74 @@
                                         <rect key="frame" x="0.0" y="90" width="1024" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbi-c2-EGu">
-                                                <rect key="frame" x="0.0" y="0.0" width="170.5" height="50"/>
-                                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="205" height="50"/>
+                                                <color key="backgroundColor" red="0.18823529411764706" green="0.15686274509803921" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="5bq-9A-D2E"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="34"/>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="selectButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZxW-YW-2vT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdH-9a-YUM">
-                                                <rect key="frame" x="170.5" y="0.0" width="171" height="50"/>
-                                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <rect key="frame" x="205" y="0.0" width="204.5" height="50"/>
+                                                <color key="backgroundColor" red="0.18823529411764706" green="0.15686274509803921" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="zwY-Ap-cg1"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="34"/>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="selectButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fAa-aW-h0l"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9q-tg-gTo">
-                                                <rect key="frame" x="341.5" y="0.0" width="170.5" height="50"/>
-                                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <rect key="frame" x="409.5" y="0.0" width="205" height="50"/>
+                                                <color key="backgroundColor" red="0.18823529411764706" green="0.15686274509803921" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Dvx-zd-w8T"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="34"/>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="selectButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xD2-mP-AEm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ww-P0-WRz">
-                                                <rect key="frame" x="512" y="0.0" width="170.5" height="50"/>
-                                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <rect key="frame" x="614.5" y="0.0" width="204.5" height="50"/>
+                                                <color key="backgroundColor" red="0.18823529411764706" green="0.15686274509803921" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="idR-Np-edj"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="34"/>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="selectButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hXc-cL-HRI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRn-8u-ID6">
-                                                <rect key="frame" x="682.5" y="0.0" width="171" height="50"/>
-                                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <rect key="frame" x="819" y="0.0" width="205" height="50"/>
+                                                <color key="backgroundColor" red="0.18823529411764706" green="0.15686274509803921" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="xR1-Ng-Oxf"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="34"/>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qd-5X-q2d">
-                                                <rect key="frame" x="853.5" y="0.0" width="170.5" height="50"/>
-                                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="W7t-QU-46u"/>
-                                                </constraints>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
+                                                <connections>
+                                                    <action selector="selectButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8UL-5O-Lb5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -146,14 +162,14 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C5Y-Gd-prG">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mm/dd/yy" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C5Y-Gd-prG">
                                                         <rect key="frame" x="0.0" y="32.5" width="225" height="65"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="65" id="Dkh-oi-d2g"/>
                                                             <constraint firstAttribute="width" constant="225" id="Q3s-pB-Ssa"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -161,7 +177,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CEh-EH-7FC">
                                                 <rect key="frame" x="379.5" y="0.0" width="225" height="97.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qih-4E-NKx">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of Visit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qih-4E-NKx">
                                                         <rect key="frame" x="0.0" y="0.0" width="225" height="32.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                         <nil key="textColor"/>
@@ -174,7 +190,7 @@
                                                             <constraint firstAttribute="width" constant="225" id="fOC-Zl-sut"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -184,7 +200,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVy-gL-T32">
                                                         <rect key="frame" x="0.0" y="0.0" width="225" height="32.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -195,7 +211,7 @@
                                                             <constraint firstAttribute="width" constant="225" id="qFd-vl-P8B"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -221,7 +237,7 @@
                                                             <constraint firstAttribute="height" constant="65" id="px3-jX-7HW"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -242,7 +258,7 @@
                                                             <constraint firstAttribute="width" constant="375" id="YDo-r8-a1c"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -264,7 +280,7 @@
                                                     <constraint firstAttribute="height" constant="65" id="LW8-I2-O1C"/>
                                                 </constraints>
                                                 <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
@@ -284,7 +300,7 @@
                                                     <constraint firstAttribute="height" constant="65" id="WcF-GW-mla"/>
                                                 </constraints>
                                                 <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
@@ -308,7 +324,7 @@
                                                             <constraint firstAttribute="width" constant="225" id="oyp-6y-rwu"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -329,7 +345,7 @@
                                                             <constraint firstAttribute="height" constant="65" id="YYO-WJ-RXn"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -350,7 +366,7 @@
                                                             <constraint firstAttribute="width" constant="225" id="m0y-K3-cFt"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -364,7 +380,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFD-Mx-mdj">
                                         <rect key="frame" x="0.0" y="0.0" width="460" height="225"/>
-                                        <color key="backgroundColor" red="0.074457161128520966" green="0.22585853934288025" blue="0.2881123423576355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.28235294117647058" green="0.51764705882352946" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="460" id="j1C-ll-XHI"/>
                                         </constraints>
@@ -372,7 +388,21 @@
                                         <state key="normal" title="Generate Pass">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="generatePass" destination="BYZ-38-t0r" eventType="touchUpInside" id="f2d-4R-Sqp"/>
+                                            <segue destination="Mgl-Kw-UP7" kind="show" identifier="CreatePass" id="P5D-Zp-DAC"/>
+                                        </connections>
                                     </button>
+                                    <datePicker contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgI-cz-fJR">
+                                        <rect key="frame" x="460" y="0.0" width="64" height="225"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="507258000.61519402">
+                                            <!--2017-01-28 01:00:00 +0000-->
+                                        </date>
+                                        <locale key="locale" localeIdentifier="en_US"/>
+                                        <connections>
+                                            <action selector="dateChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="8Zf-88-CGM"/>
+                                        </connections>
+                                    </datePicker>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3M-S2-qtv">
                                         <rect key="frame" x="524" y="0.0" width="460" height="225"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -382,13 +412,17 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <state key="normal" title="Populate Data">
-                                            <color key="titleColor" red="0.066666666666666666" green="0.17254901960784313" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.28235294117647058" green="0.51764705882352946" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="populateData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7fW-RD-dGQ"/>
+                                            <segue destination="Mgl-Kw-UP7" kind="show" identifier="populate" id="Joa-M9-2gw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.82352941176470584" green="0.80000000000000004" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="VPz-OI-PTN" firstAttribute="top" secondItem="g9q-tg-gTo" secondAttribute="bottom" constant="70" id="2FR-8P-QgO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TFX-6a-mME" secondAttribute="trailing" id="2Q5-Kf-L8a"/>
@@ -402,10 +436,52 @@
                             <constraint firstItem="VPz-OI-PTN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wfb-fj-yVQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="address" destination="Jie-Uz-Mij" id="FD0-GC-X5O"/>
+                        <outlet property="button1" destination="Kbi-c2-EGu" id="unX-aG-aCR"/>
+                        <outlet property="button2" destination="vdH-9a-YUM" id="VWO-Q4-gX2"/>
+                        <outlet property="button3" destination="g9q-tg-gTo" id="jx5-AY-aBL"/>
+                        <outlet property="button4" destination="5Ww-P0-WRz" id="0jM-5E-dIy"/>
+                        <outlet property="button5" destination="YRn-8u-ID6" id="lSR-3n-8WB"/>
+                        <outlet property="city" destination="NLC-nc-u9x" id="t8z-26-Xkq"/>
+                        <outlet property="company" destination="Sk6-Ge-0Ut" id="ZTc-Oe-HIk"/>
+                        <outlet property="dOB" destination="C5Y-Gd-prG" id="jOp-M7-Q6e"/>
+                        <outlet property="datePicker" destination="CgI-cz-fJR" id="9GA-OA-yhy"/>
+                        <outlet property="firstNme" destination="ShX-wR-EeR" id="8bd-yM-auf"/>
+                        <outlet property="generatePassButton" destination="SFD-Mx-mdj" id="sEL-YY-DSA"/>
+                        <outlet property="lastName" destination="k8k-t4-ePs" id="4ev-4o-Sug"/>
+                        <outlet property="lengthFromBottom" destination="gZI-8k-XaC" id="YgH-Qf-gxy"/>
+                        <outlet property="pjNumber" destination="7T4-aD-7H2" id="4el-rf-lrm"/>
+                        <outlet property="populateData" destination="s3M-S2-qtv" id="n2E-oi-EIN"/>
+                        <outlet property="ssn" destination="Psk-ou-QnX" id="LKs-8Q-fhZ"/>
+                        <outlet property="state" destination="e5d-H5-p0j" id="ODZ-Oh-zSr"/>
+                        <outlet property="zipCode" destination="nGp-3E-YJ9" id="OIN-Lf-wH0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.6953125" y="138.79941434846265"/>
         </scene>
+        <!--Pass View Controller-->
+        <scene sceneID="lse-K2-wIP">
+            <objects>
+                <viewController id="Mgl-Kw-UP7" customClass="PassViewController" customModule="AmusementPark" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f7E-xA-tDK"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ZF-Bb-AnK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nMM-bP-hPy">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxV-4W-BaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="145"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="P5D-Zp-DAC"/>
+    </inferredMetricsTieBreakers>
 </document>
